@@ -1,0 +1,84 @@
+.button {
+
+    border: none;
+    color: white;
+    font-family: 'Ibarra Real Nova', serif;
+    background-color: #165A4A;
+    cursor: pointer;
+
+    &__green {
+        background-color: #165A4A;
+
+        &:hover {
+            background-color: #61cdb3;
+            color: #165A4A;
+        }
+    }
+
+    &__main {
+        padding: 1.5rem 2.5rem;
+        font-size: 2rem;
+        // border-radius: .3rem;
+        font-family: 'Ibarra Real Nova', serif;
+
+        border: none;
+        color: white;
+
+        &:hover {
+            background-color: #61cdb3;
+            color: #165A4A;
+        }
+    }
+
+    &__caurosel {
+        padding: 1.5rem 2.5rem;
+        font-size: 2rem;
+        // border-radius: .3rem;
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+
+        &:hover {
+            background-color: #61cdb3;
+            color: #165A4A;
+        }
+    }
+
+    &__cta {
+        padding: 1.5rem 2.5rem;
+        font-size: 2rem;
+        // border-radius: .3rem;
+        background-color: white;
+        color: #165A4A;
+
+        &:hover {
+            background-color: #61cdb3;
+            color: #165A4A;
+        }
+    }
+
+    &__login {
+        font-size: 2rem;
+        font-family: sans-serif;
+        padding: 1.5rem 4rem;
+    }
+
+    &__signup {
+        font-size: 2rem;
+        font-family: sans-serif;
+        padding: 1.5rem 4rem;
+    }
+}
+
+.nav__button {
+    padding: 3.1rem 3.8rem;
+    font-size: 1.6rem;
+}
+
+.nav__login-button {
+    font-family: 'Ibarra Real Nova', serif;
+    display: flex;
+    gap: 4.5rem;
+    align-items: center;
+
+}

@@ -1,0 +1,42 @@
+.main {
+    display: flex;
+    padding: 0rem 7rem;
+    /* gap: 10rem; */
+    margin-top: 18rem;
+    align-items: center;
+
+
+    &__left {
+        max-width: 60rem;
+        /* margin-bottom:100rem ; */
+    }
+
+    &__left-heading {
+        /* font-family: 'Abril Fatface', cursive; */
+        font-family: 'Montserrat', sans-serif;
+        font-size: 9rem;
+        margin-bottom: 4rem;
+    }
+
+    &__left-p {
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        width: 60%;
+        margin-bottom: 4rem;
+    }
+
+    &__right-pic1 {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        right: 15%;
+    }
+
+    &__right-pic2 {
+        position: absolute;
+        right: 4%;
+        top: 300px;
+        object-fit: cover;
+    }
+}

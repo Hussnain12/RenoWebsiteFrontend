@@ -1,0 +1,22 @@
+.cta {
+    background-color: #165A4A;
+    padding: 3rem 3rem 10rem 3rem;
+    &__h1 {
+        font-size: 5rem;
+        width: 40%;
+        color: white;
+        &::selection{
+            background-color: white;
+            color:#165A4A;
+        }
+    }
+    &__container{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__mail{
+        font-size: 5rem;
+        color: rgba(255,255,255,0.25);
+    }
+
+}

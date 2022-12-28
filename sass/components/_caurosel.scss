@@ -1,0 +1,32 @@
+.caurosel{
+    margin-top: -8rem;
+    min-width: 100vw;
+    min-height: 100vh;
+    
+    &__container{
+        display: flex;
+        // flex-direction: row;
+        align-items: center;
+        padding: 0rem 6rem;
+        gap: 20rem;
+    }
+    &__stars{
+        margin: 0 0.4rem;
+    }
+    &__p1{
+        font-size: 3rem;
+        font-weight: 100;
+        // letter-spacing: 3px;
+        line-height: 1.5;
+        
+    }
+    &__p{
+        font-size: 1.5rem;
+    }
+    &__footer{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

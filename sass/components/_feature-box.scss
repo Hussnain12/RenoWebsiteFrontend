@@ -1,0 +1,55 @@
+.features {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #165A4A;
+
+
+    &__top {
+
+        display: flex;
+        padding: 10rem 0rem;
+        justify-content: center;
+        gap: 18rem;
+        align-items: center;
+    }
+
+    &__heading {
+        font-size: 6rem;
+        color: white;
+        width: 40%;
+    }
+
+    &__p {
+        font-size: 1.8rem;
+        color: white;
+        width: 40%;
+    }
+
+    &__cards {
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        color: white;
+        padding-bottom: 12rem;
+    }
+
+    &__card-p {
+        width: 30rem;
+    }
+
+    &__card-num {
+        font-size: 4rem;
+        position: absolute;
+        font-weight: bold;
+        /* top: 0; */
+        /* left: 10%; */
+        margin-left: 2rem;
+        margin-top: 1rem;
+    }
+}

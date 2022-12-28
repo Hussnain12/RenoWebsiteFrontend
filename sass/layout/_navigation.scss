@@ -1,0 +1,51 @@
+.nav {
+    // position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #165A4A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 0 0 7rem;
+
+
+    &__container {
+        display: flex;
+        gap: 7rem;
+        align-items: center;
+        padding-bottom: 1rem;
+    }
+
+    &__logo {
+        cursor: pointer;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 4rem;
+    }
+
+    &__ul {
+        font-family: 'Ibarra Real Nova', serif;
+        margin-top: 1.3rem;
+        list-style: none;
+        gap: 3rem;
+        display: flex;
+        font-size: 2rem;
+
+    }
+
+    &__items:hover {
+        cursor: pointer;
+    background-color: #61cdb3;
+        color: #165A4A;
+    }
+
+
+    &__login {
+        font-size: 2.5rem;
+        cursor: pointer;
+        &-a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+
+}
